@@ -1,0 +1,24 @@
+{
+  "name": "rest_api_node",
+  "version": "1.0.0",
+  "description": "## What we will cover?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChauDinh/rest_api_design.git"
+  },
+  "author": "Chau Dinh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChauDinh/rest_api_design/issues"
+  },
+  "homepage": "https://github.com/ChauDinh/rest_api_design#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.1"
+  }
+}
