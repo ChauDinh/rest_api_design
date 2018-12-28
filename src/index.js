@@ -81,7 +81,7 @@ app.delete(
 );
 
 app.use((error, req, res, next) => {
- console.log(error.message);
+ console.error(error.message);
  res.status(error.statusCode || 500).json({ message: error.message });
 });
 
